@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controlador.ProductoController">
+   <children>
+      <TableView fx:id="tblTableProducto" layoutX="12.0" layoutY="100.0" prefHeight="282.0" prefWidth="573.0">
+        <columns>
+          <TableColumn fx:id="productoID" prefWidth="64.0" text="ID" />
+          <TableColumn fx:id="productoNombre" prefWidth="226.0" text="Nombre" />
+            <TableColumn fx:id="productoPrecio" minWidth="0.0" prefWidth="180.0" text="Precio" />
+            <TableColumn fx:id="comando" prefWidth="101.0" text="Editar" />
+        </columns>
+      </TableView>
+      <FontAwesomeIconView fill="#0d00ff" glyphName="CART_PLUS" layoutX="31.0" layoutY="84.0" onMouseClicked="#nuevoProducto" size="30" />
+      <FontAwesomeIconView fill="#00c344" glyphName="REFRESH" layoutX="85.0" layoutY="84.0" onMouseClicked="#refrescarProducto" size="30" />
+      <Label layoutX="12.0" layoutY="14.0" text="Producto">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</fx:root>

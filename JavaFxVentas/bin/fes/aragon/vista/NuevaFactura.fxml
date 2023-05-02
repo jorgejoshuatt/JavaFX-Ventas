@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controlador.NuevaFacturaController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="46.0" prefWidth="600.0">
+         <children>
+            <Label text="Nueva Factura">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="56.0" prefWidth="600.0" spacing="50.0">
+         <children>
+            <Label text="Referencia" />
+            <TextField fx:id="txtReferencia" prefHeight="25.0" prefWidth="329.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="56.0" prefWidth="600.0" spacing="50.0">
+         <children>
+            <Label text="Fecha" />
+            <DatePicker fx:id="datepickerFecha" prefHeight="25.0" prefWidth="324.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="56.0" prefWidth="600.0" spacing="50.0">
+         <children>
+            <Label text="Nombre" />
+            <TextField fx:id="txtNombre" editable="false" prefHeight="25.0" prefWidth="329.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="56.0" prefWidth="600.0" spacing="50.0">
+         <children>
+            <Label text="Apellido" />
+            <TextField fx:id="txtApellido" editable="false" prefHeight="25.0" prefWidth="329.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+         <children>
+            <Label text="ID" />
+            <TextField fx:id="txtClienteID" prefHeight="25.0" prefWidth="322.0" />
+            <Button mnemonicParsing="false" onAction="#Buscar" text="Buscar" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="161.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="tblTableNuevaFactura" prefHeight="161.0" prefWidth="469.0">
+              <columns>
+                <TableColumn fx:id="clienteID" prefWidth="81.0" text="ID" />
+                <TableColumn fx:id="nombreCliente" prefWidth="182.0" text="Nombre" />
+                  <TableColumn fx:id="ApellidoCliente" prefWidth="205.0" text="Apellido" />
+              </columns>
+            </TableView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#Guardar" prefHeight="25.0" prefWidth="73.0" text="Guardar" />
+            <Button mnemonicParsing="false" onAction="#Limpiar" prefHeight="25.0" prefWidth="74.0" text="Limpiar" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
