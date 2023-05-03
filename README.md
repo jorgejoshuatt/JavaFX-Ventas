@@ -4,7 +4,7 @@ Aplicación de escritorio creada para la clase de Bases de Datos en la Facultad 
 
 ## Construido con 🛠️
 
-* [Eclipse for Java Developers 2021 - 09](https://www.eclipse.org/) :man_technologist:
+* [Eclipse for Java Developers 2021-09](https://www.eclipse.org/) :man_technologist:
 * [Java](https://www.java.com/es/) :hotsprings:
 * [JavaFX Scene Builder](https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html) :raised_back_of_hand:
 * [MySQL](https://www.mysql.com/) :dolphin:
