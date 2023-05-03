@@ -13,6 +13,7 @@ Aplicación de escritorio creada para la clase de Bases de Datos en la Facultad 
 * [Eclipse for Java Developers 2021 - 09](https://www.eclipse.org/downloads/packages/release/2021-09/r)
 * [OpenJDK 11.0.13](https://learn.microsoft.com/es-es/java/openjdk/older-releases#openjdk-11013)
 * [Crear base de datos y ejecutar vistas y procesos almacenados](https://github.com/jorgejoshuatt/JavaFX-Ventas/tree/main/JavaFxVentas/src/fes/aragon/recursos)
+* [Instalar librerías de JavaFX](https://download2.gluonhq.com/openjfx/11.0.2/openjfx-11.0.2_windows-x64_bin-sdk.zip)
 
 ## Autores ✒️
 
